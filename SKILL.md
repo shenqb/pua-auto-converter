@@ -1,4 +1,49 @@
+---
+name: pua
+description: 🦞 PUA Skill - AI 提示词增强器 | 16项技术 | 插件化架构
+user-invocable: true
+---
+
 # 🦞 PUA Skill - 自动话术增强器 (v2.1)
+
+> *"你说人话，我翻译。龙虾出品，必属精品。"*
+
+## 斜杠命令
+
+当用户输入 `/pua` 命令时，执行以下逻辑：
+
+**技能目录**: `{baseDir}`
+
+**命令格式**: `/pua [子命令] [参数]`
+
+### 处理规则
+
+1. 用户输入 `/pua <任何内容>` 时：
+   - 在 `{baseDir}` 目录下执行
+   - 运行 `node index.js "<用户输入的完整内容>"`
+
+2. 子命令列表：
+   - `/pua` → 显示帮助
+   - `/pua list` → 列出所有 16 项技术
+   - `/pua recommend <任务>` → 推荐技术组合
+   - `/pua preview <指令>` → 预览话术
+   - `/pua rating <技术>` → 查看技术详情
+   - `/pua config` → 查看/修改配置
+   - `/pua stats` → 插件统计
+   - `/pua reload` → 热重载插件
+   - `/pua <其他内容>` → 自动 PUA 化处理
+
+### 示例
+
+```
+用户: /pua list
+执行: cd {baseDir} && node index.js list
+
+用户: /pua 帮我写代码
+执行: cd {baseDir} && node index.js "帮我写代码"
+```
+
+---
 
 > *"你说人话，我翻译。龙虾出品，必属精品。"*
 
