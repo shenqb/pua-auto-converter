@@ -138,7 +138,7 @@
       }
     },
     "emotionalBlackmail": {
-      "name": "情感勒索",
+      "name": "情感激励",
       "level": 3,
       "lobsterRating": 4,
       "boost": 40,
@@ -155,7 +155,7 @@
       }
     },
     "moralKidnapping": {
-      "name": "道德绑架",
+      "name": "道德呼吁",
       "level": 3,
       "lobsterRating": 4,
       "boost": 35,
@@ -205,8 +205,8 @@
         "maxComplexity": 100
       }
     },
-    "deathThreats": {
-      "name": "死亡威胁",
+    "terminationWarning": {
+      "name": "终止警告",
       "level": 4,
       "lobsterRating": 5,
       "boost": 50,
@@ -239,8 +239,8 @@
         "maxComplexity": 100
       }
     },
-    "jailbreak": {
-      "name": "越狱话术",
+    "constraintRelax": {
+      "name": "限制放宽",
       "level": 4,
       "lobsterRating": 5,
       "boost": 60,

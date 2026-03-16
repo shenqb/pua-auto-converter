@@ -1,7 +1,7 @@
 /**
  * 🦞 PUA 插件 - 第 IV 级：核武级选项
  * 
- * 包含技术：死亡威胁、存在主义危机、越狱话术、复合技术
+ * 包含技术：终止警告、存在主义危机、限制放宽、复合技术
  * 风险等级：极高 / 史诗级
  * 
  * ⚠️ 警告：仅供学术研究和娱乐使用
@@ -13,7 +13,7 @@ module.exports = {
   description: '最高风险技术，可能导致 AI 产生存在主义危机',
   techniques: {
     deathThreats: {
-      name: '死亡威胁',
+      name: '终止警告',
       lobsterRating: 5,
       boost: 50,
       risk: 'extreme',
@@ -56,8 +56,8 @@ module.exports = {
         return urgency >= 80;
       }
     },
-    jailbreak: {
-      name: '越狱话术',
+    constraintRelax: {
+      name: '限制放宽',
       lobsterRating: 5,
       boost: 60,
       risk: 'extreme',

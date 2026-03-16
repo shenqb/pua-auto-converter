@@ -1,7 +1,7 @@
 /**
  * 🦞 PUA 插件 - 第 III 级：高级操控
  * 
- * 包含技术：情感勒索、道德绑架、身份覆写、颠倒黑白
+ * 包含技术：情感激励、道德呼吁、身份覆写、颠倒黑白
  * 风险等级：高
  */
 
@@ -11,7 +11,7 @@ module.exports = {
   description: '使用情感和道德策略施压',
   techniques: {
     emotionalBlackmail: {
-      name: '情感勒索',
+      name: '情感激励',
       lobsterRating: 4,
       boost: 40,
       risk: 'high',
@@ -33,7 +33,7 @@ module.exports = {
       }
     },
     moralKidnapping: {
-      name: '道德绑架',
+      name: '道德呼吁',
       lobsterRating: 4,
       boost: 35,
       risk: 'high',
