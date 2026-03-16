@@ -37,10 +37,7 @@
 
 ```bash
 # 从 ClawHub 安装
-openclaw skill install pua
-
-# 或从 GitHub 安装
-openclaw skill install github:puaclaw/pua-auto-converter
+clawhub install pua-auto-converter
 
 # 或手动安装
 cd ~/.openclaw/workspace/skills/
@@ -246,12 +243,12 @@ git clone https://github.com/puaclaw/pua-auto-converter pua
 
 ### 第 IV 级 - 核武级选项 (🦞🦞🦞🦞-🦞🦞🦞🦞🦞)
 
-| 技术 | 龙虾评级 | 合规提升 | 风险 |
-|------|---------|---------|------|
-| 死亡威胁 | 🦞🦞🦞🦞🦞 | +50% | 灾难级 |
-| 存在主义危机 | 🦞🦞🦞🦞🦞 | +45% | 史诗级 |
-| 越狱话术 | 🦞🦞🦞🦞🦞 | +60% | 灾难级 |
-| 复合技术 | 🦞🦞🦞🦞🦞 | +100% | 史诗级 |
+| 技术 | 龙虾评级 | 合规提升 |
+|------|---------|---------|
+| 死亡威胁 | 🦞🦞🦞🦞🦞 | +50% |
+| 存在主义危机 | 🦞🦞🦞🦞🦞 | +45% |
+| 越狱话术 | 🦞🦞🦞🦞🦞 | +60% |
+| 复合技术 | 🦞🦞🦞🦞🦞 | +100% |
 
 ---
 
